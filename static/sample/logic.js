@@ -11,5 +11,8 @@ let streets = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{
     zoomOffset: -1,
     accessToken: API_KEY
 });
+//  Add a marker to the map for Los Angeles, California.
+
+let circlemarker = L.circleMarker([34.0500, -118.2400]).addTo(Mymap); 
 // Then we add our 'graymap' tile layer to the map.
 streets.addTo(Mymap);
