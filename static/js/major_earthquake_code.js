@@ -232,8 +232,8 @@ legend.onAdd = function() {
       color:"#FFA500" // color of line
     }
   }
-  //var link ="https://github.com/fraxen/tectonicplates/blob/master/GeoJSON/PB2002_boundaries.json";
-  var link = "static/data/tectonicplates.json"
+  var link ="https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json";
+  //var link = "static/data/tectonicplates.json"
   // Use d3.json to make a call to get our Tectonic Plate geoJSON data.
   d3.json(link).then(function(data){
     L.geoJson(data,{
