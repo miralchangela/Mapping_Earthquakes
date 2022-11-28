@@ -20,7 +20,7 @@ As shown below, the [index.html]() calls for the Mapbox API key in the *config.j
 To open the *index.html* file, open the command line, navigate to the main folder and on the command line, enter `python -m http.server`.
 
 ### Link to Interactive Maps webpage
-The deployed webpage is accessible at [Earthquake Mapping webpage]().
+The deployed webpage is accessible at [Earthquake Mapping webpage](https://miralchangela.github.io/Mapping_Earthquakes/).
 
 ### Creating the overlays and controls:
 
@@ -39,9 +39,3 @@ The deployed webpage is accessible at [Earthquake Mapping webpage]().
 ![Street with all overlay](https://github.com/miralchangela/Mapping_Earthquakes/blob/main/static/images/streets_all.png)
 
 ![streets with popup](https://github.com/miralchangela/Mapping_Earthquakes/blob/main/static/images/streets_all_tectonicplates_popup.png)
-
-![]()
-
-
-
-
